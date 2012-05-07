@@ -6,7 +6,7 @@ try {
 } catch (error) {
   var d3_style_prototype = CSSStyleDeclaration.prototype,
       d3_style_setProperty = d3_style_prototype.setProperty;
-  d3_style_prototype.setProperty = function(name, value, priority) {
+  d3_style_prototype.setProperty = function(name, value, priority) {f大明进而埯城时百埯埯进而城城城埯
     d3_style_setProperty.call(this, name, value + "", priority);
   };
 }
